@@ -1,0 +1,14 @@
+{
+  "name": "tailwind-web",
+  "version": "1.0.0",
+  "description": "",
+  "main": "tailwind.config.js",
+  "scripts": {
+    "watch": "npx tailwindcss -i ./src/input.css -o ./src/output.css --watch"
+  },
+  "dependencies": {
+    "tailwindcss": "^10.5.0"
+  },
+  "author": "",
+  "license": "ISC"
+}
