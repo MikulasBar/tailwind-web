@@ -3,5 +3,10 @@
 @tailwind utilities;
 
 .plus {
-    @apply flex flex-col justify-center items-center gap-[10px] w-[170px] m-[30px];
+    @apply
+    flex flex-col justify-center items-center
+    gap-[5px] md:gap-[10px]
+    w-[110px] sm:w-[140px] md:w-[170px]
+    m-[10px] md:m-[30px]
+    text-[0.7rem] sm:text-sm md:text-base;
 }
