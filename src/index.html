@@ -7,19 +7,21 @@
   <link href="./output.css" rel="stylesheet">
   <base href="../assets/">
   <title>Tailwind Web</title>
-
 </head>
 
 <body class="flex flex-col items-center font-roboto">
   <div class="w-full h-[80px]"></div>
-  <div class="flex gap-[80px]">
-    <img class="rounded-[10px] h-[280px] w-[352px]" src="images/grass.jpg" alt="grass">
-    <img class="rounded-[10px] h-[280px] w-[352px]" src="images/night-house.jpg" alt="night-house">
-    <img class="rounded-[10px] h-[280px] w-[352px]" src="images/day-house.jpg" alt="day-house">
+
+  <div class="flex flex-wrap lg:gap-[80px] md:gap-[30px] gap-[30px] justify-center">
+    <img class="rounded-[10px] lg:w-[352px] md:w-[220px] w-[120px] max-w-[352px] max-h-[280px] object-cover object-center" src="images/grass.jpg" alt="grass">
+    <img class="rounded-[10px] lg:w-[352px] md:w-[220px] w-[120px] max-w-[352px] max-h-[280px] object-cover object-center" src="images/night-house.jpg" alt="night-house">
+    <img class="rounded-[10px] lg:w-[352px] md:w-[220px] w-[120px] max-w-[352px] max-h-[280px] object-cover object-center" src="images/day-house.jpg" alt="day-house">
   </div>
 
+
+
   <div class="w-full h-[100px]"></div>
-  <p class="text-primary text-4xl">Plusy</p>
+  <p class="text-primary sm:text-lg md:text-2xl lg:text-4xl">Plusy</p>
 
   <div class="w-full h-[50px]"></div>
   <div class="flex gap-[5%] flex-wrap justify-center text-center font-bold w-[70%]">
