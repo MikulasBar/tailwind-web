@@ -90,18 +90,30 @@
   <div class="w-full h-[110px]"></div>
 
 
-  <div class="flex w-[65%] gap-[20px] relative">
-    <p class="w-[32%] leading-8 text-zinc-950 text-[1.1rem] font-normal">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Duis viverra diam non justo. Donec quis nibh at felis
+  <div class="flex flex-col-reverse lg:flex-row gap-[20px]
+              w-[300px] sm:w-[600px] md:w-[700px] lg:w-[1200px]">
+
+    <p class="lg:w-[50%] px-[10px] py-[20px] lg:px-[80px] lg:py-[60px] text-zinc-950 text-[1rem] lg:text-[1.1rem] font-normal leading-7 lg:leading-8">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Duis viverra diam non justo. Donec quis nibh at felis
       congue commodo. Nulla turpis magna, cursus sit amet, suscipit a, interdum id, felis. Present vitae arcu tempor
       neque lacinia pretium. Integer tempor. Nunc dapibus tortor vel mi dapibus sollicitudin.<br /><br />Nunc tincidunt
       ante vitae massa. Maecenas fermentum, sem in pharetra pellentesque, velit turpis volutpat ante, in pharetra metus
       odio a lectus. Nullam justo enim, consectetuer nec, ullamcorper ac, vestibulum in, elit. Fusce aliquam vestibulum
-      ipsum. Nulla non lectus sed nisl molestie malesuada. Aliquam ante. Integer imperdiet lectus quis justo.</p>
+      ipsum. Nulla non lectus sed nisl molestie malesuada. Aliquam ante. Integer imperdiet lectus quis justo.
+    </p>
 
-    <div class="w-[672px] h-[414px] absolute bottom-0 right-[100px] bg-gradient-to-tr from-gray-400 to-pink-100 rounded-[10px] shadow-lg"></div>
-    <img class="w-[672px] h-[414px] absolute top-0 right-0 rounded-[10px] shadow-lg" src="images/night-house.jpg" alt="night-house">
+    <div class="flex relative w-[370px] sm:w-[470px] md:w-[570px] lg:w-[670px] lg:mt-[50px]">
+      <div class="hidden lg:block w-full h-[414px] absolute top-[50px] right-[50px]
+                  bg-gradient-to-tr from-gray-400 to-pink-100 opacity-90 rounded-[10px] shadow-lg">
+                </div>
+
+      <img class="lg:absolute top-0 right-0
+                  object-center object-cover rounded-[10px] shadow-lg" 
+                  src="images/night-house.jpg" alt="night-house">
+    </div>
   </div>
-  <div class="w-full h-[80px]"></div>
+
+
+  <div class="w-full h-[50px] md:h-[80px]"></div>
 </body>
 
 </html>
